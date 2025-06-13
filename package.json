@@ -83,7 +83,7 @@
     "@strapi/typescript-utils": "^5.15.1",
     "@stylistic/eslint-plugin": "^4.4.1",
     "@types/koa": "^2.15.0",
-    "@types/node": "^22",
+    "@types/node": "^22.15.31",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "eslint": "^9.28.0",
@@ -104,11 +104,11 @@
     "styled-components": "^6"
   },
   "engines": {
-    "node": ">=22.0.0"
+    "node": ">=22.16.0"
   },
   "packageManager": "pnpm@10.12.1",
   "volta": {
-    "node": "22.14.0",
+    "node": "22.16.0",
     "pnpm": "10.12.1"
   }
 }
