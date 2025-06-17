@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.3.2](https://github.com/ChristopheCVB/strapi-plugin-qr-code/compare/v0.3.1...v0.3.2) (2025-06-17)
+
+
+### Bug Fixes
+
+* **deps:** update dependency zod to ^3.25.67 ([#28](https://github.com/ChristopheCVB/strapi-plugin-qr-code/issues/28)) ([de4d4c9](https://github.com/ChristopheCVB/strapi-plugin-qr-code/commit/de4d4c980d3efdad33569c174dbafbffe043d758))
+* Validate uniqueness of uids ([b8f7d1f](https://github.com/ChristopheCVB/strapi-plugin-qr-code/commit/b8f7d1f5eef8305701e4c76bc5ba42dea1590609))
+
 ## [0.3.1](https://github.com/ChristopheCVB/strapi-plugin-qr-code/compare/v0.3.0...v0.3.1) (2025-06-16)
 
 
