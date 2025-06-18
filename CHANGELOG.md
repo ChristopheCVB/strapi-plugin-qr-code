@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.4.0](https://github.com/ChristopheCVB/strapi-plugin-qr-code/compare/v0.3.2...v0.4.0) (2025-06-18)
+
+
+### Features
+
+* Minimum node version ([cf5b843](https://github.com/ChristopheCVB/strapi-plugin-qr-code/commit/cf5b8439ccece52def8152a8bdb39cc6d5329e69))
+
 ## [0.3.2](https://github.com/ChristopheCVB/strapi-plugin-qr-code/compare/v0.3.1...v0.3.2) (2025-06-17)
 
 
