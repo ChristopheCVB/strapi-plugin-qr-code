@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.4.2](https://github.com/ChristopheCVB/strapi-plugin-qr-code/compare/v0.4.1...v0.4.2) (2025-06-24)
+
+
+### Bug Fixes
+
+* lockfile ([8ba0434](https://github.com/ChristopheCVB/strapi-plugin-qr-code/commit/8ba0434f933907e41039cab9bbf08d596563d856))
+* lockfile ([1f31792](https://github.com/ChristopheCVB/strapi-plugin-qr-code/commit/1f31792d8d51daf6c66ad860336d7530f38a2d87))
+
 ## [0.4.1](https://github.com/ChristopheCVB/strapi-plugin-qr-code/compare/v0.4.0...v0.4.1) (2025-06-24)
 
 
