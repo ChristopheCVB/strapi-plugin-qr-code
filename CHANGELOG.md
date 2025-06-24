@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.4.1](https://github.com/ChristopheCVB/strapi-plugin-qr-code/compare/v0.4.0...v0.4.1) (2025-06-24)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @strapi/design-system to ^2.0.0-rc.27 ([#35](https://github.com/ChristopheCVB/strapi-plugin-qr-code/issues/35)) ([db9f04f](https://github.com/ChristopheCVB/strapi-plugin-qr-code/commit/db9f04fad910d8a209488ab39776ed0072b8e0c3))
+* **deps:** update dependency @strapi/icons to ^2.0.0-rc.27 ([#36](https://github.com/ChristopheCVB/strapi-plugin-qr-code/issues/36)) ([bd65d41](https://github.com/ChristopheCVB/strapi-plugin-qr-code/commit/bd65d41bc6995b666a7b71bdf0bb64ddc280a723))
+
 ## [0.4.0](https://github.com/ChristopheCVB/strapi-plugin-qr-code/compare/v0.3.2...v0.4.0) (2025-06-18)
 
 
