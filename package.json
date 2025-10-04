@@ -76,7 +76,7 @@
     "@strapi/design-system": "^2.0.0-rc.30",
     "@strapi/icons": "^2.0.0-rc.29",
     "qrcode.react": "^4.2.0",
-    "react-intl": "^7.1.11",
+    "react-intl": "^7.1.12",
     "zod": "^3.25.76"
   },
   "devDependencies": {
