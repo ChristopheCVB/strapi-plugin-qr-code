@@ -1,5 +1,16 @@
 # Changelog
 
+## [0.4.4](https://github.com/ChristopheCVB/strapi-plugin-qr-code/compare/v0.4.3...v0.4.4) (2025-11-30)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @strapi/design-system to ^2.0.0-rc.30 ([#99](https://github.com/ChristopheCVB/strapi-plugin-qr-code/issues/99)) ([c676d5d](https://github.com/ChristopheCVB/strapi-plugin-qr-code/commit/c676d5d55243b43105f13cc2546b76aab5529c0d))
+* **deps:** update dependency @strapi/design-system to ^2.0.1 ([#122](https://github.com/ChristopheCVB/strapi-plugin-qr-code/issues/122)) ([7a36d7a](https://github.com/ChristopheCVB/strapi-plugin-qr-code/commit/7a36d7a7344c6c773f0c6bbf5291af7ad8169cdf))
+* **deps:** update dependency @strapi/icons to ^2.0.0-rc.30 ([#103](https://github.com/ChristopheCVB/strapi-plugin-qr-code/issues/103)) ([6c833c1](https://github.com/ChristopheCVB/strapi-plugin-qr-code/commit/6c833c16a9f6022cd90ba391cecb3be1c4e940b3))
+* **deps:** update dependency @strapi/icons to ^2.0.1 ([#123](https://github.com/ChristopheCVB/strapi-plugin-qr-code/issues/123)) ([a7f3dcf](https://github.com/ChristopheCVB/strapi-plugin-qr-code/commit/a7f3dcf77ecdab38bff61c6654cfb06430329292))
+* **deps:** update dependency react-intl to ^7.1.12 ([#106](https://github.com/ChristopheCVB/strapi-plugin-qr-code/issues/106)) ([17b1ced](https://github.com/ChristopheCVB/strapi-plugin-qr-code/commit/17b1cedf349ad6dca68ddfc21b01858d2fb73882))
+
 ## [0.4.3](https://github.com/ChristopheCVB/strapi-plugin-qr-code/compare/v0.4.2...v0.4.3) (2025-07-13)
 
 
