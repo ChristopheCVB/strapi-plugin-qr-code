@@ -73,7 +73,7 @@
     "test:coverage": "vitest run --coverage"
   },
   "dependencies": {
-    "@strapi/design-system": "^2.0.2",
+    "@strapi/design-system": "^2.1.0",
     "@strapi/icons": "^2.0.2",
     "qrcode.react": "^4.2.0",
     "react-intl": "^7.1.14",
