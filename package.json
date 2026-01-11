@@ -84,7 +84,7 @@
     "@strapi/content-manager": "^5.33.2",
     "@strapi/sdk-plugin": "^5.4.0",
     "@strapi/typescript-utils": "^5.33.2",
-    "@stylistic/eslint-plugin": "^5.6.1",
+    "@stylistic/eslint-plugin": "^5.7.0",
     "@types/koa": "^2.15.0",
     "@types/node": "^22.19.5",
     "@types/react": "^18.3.27",
