@@ -11,10 +11,11 @@ const controller = ({ strapi }: { strapi: Core.Strapi }) => ({
     const contentTypes: Config['contentTypes'] = strapi.plugin(PLUGIN_ID).config('contentTypes')
     const contentType = contentTypes.find(content => content.uid === uid)
 
-    const result: {
+    const result: Pick<Config['contentTypes'][number], 'features'> & {
       computedValue: string | undefined
     } = {
       computedValue: undefined,
+      features: contentType?.features,
     }
 
     if (contentType && status && documentId) {
