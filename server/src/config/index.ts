@@ -3,7 +3,7 @@ import { z } from 'zod'
 
 const schemaDocument = z.object/*<Modules.Documents.Document<UID.ContentType>>*/({
   documentId: z.string().min(1),
-  id: z.number().min(1),
+  id: z.union([z.number().min(1), z.string().min(1)]),
 })
 
 const configSchema = z.object({
@@ -15,6 +15,12 @@ const configSchema = z.object({
       z.union([z.literal('draft'), z.literal('published')]),
       schemaDocument,
     ).returns(z.union([z.promise(z.string()), z.string()])),
+    features: z.object({
+      link: z.boolean().optional(),
+      eps: z.boolean().optional(),
+      png: z.boolean().optional(),
+      svg: z.boolean().optional(),
+    }).optional(),
   }).array().refine((contentTypes) => {
     const uids = contentTypes.map((contentType) => contentType.uid)
     return new Set(uids).size === uids.length
