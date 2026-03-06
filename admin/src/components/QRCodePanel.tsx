@@ -1,7 +1,7 @@
 import type { PanelComponent } from '@strapi/content-manager/strapi-admin'
 import { QRCodeSVG } from 'qrcode.react'
 import { useEffect, useRef, useState } from 'react'
-import { Button, Flex, Typography, Link } from '@strapi/design-system'
+import { Button, Flex, Link } from '@strapi/design-system'
 import { Download, ExternalLink } from '@strapi/icons'
 import { useFetchClient } from '@strapi/strapi/admin'
 
@@ -106,7 +106,7 @@ const QRCodePanel: PanelComponent = (props) => {
   return {
     title: 'QR Code',
     content: (
-      <div style={{ display: 'flex', flexDirection: 'column', gap: 12 }}>
+      <Flex direction="column" gap={3} alignItems="stretch">
         <QRCodeSVG
           ref={svgRef}
           value={uri}
@@ -116,47 +116,41 @@ const QRCodePanel: PanelComponent = (props) => {
           marginSize={1}
           style={{ width: '100%', height: 'auto', objectFit: 'contain' }}
         />
-        <Flex direction="column" gap={3}>
-          {features?.link && (
-            <Flex direction="column" gap={2}>
-              <Typography variant="pi" fontWeight="bold" textColor="neutral800">
-                URL:
-              </Typography>
-              <Link 
-                href={uri} 
-                target="_blank" 
-                rel="noopener noreferrer"
-                startIcon={<ExternalLink />}
-                style={{ 
-                  wordBreak: 'break-all',
-                  textDecoration: 'none',
-                }}
-              >
-                {uri}
-              </Link>
-            </Flex>
-          )}
-          {features && (features.svg || features.png || features.eps) && (
-            <Flex gap={2} wrap="wrap">
-              {features?.svg && (
-                <Button startIcon={<Download />} onClick={downloadAsSvg}>
-                  Download SVG
-                </Button>
-              )}
-              {features?.png && (
-                <Button startIcon={<Download />} onClick={downloadAsPng}>
-                  Download PNG
-                </Button>
-              )}
-              {features?.eps && (
-                <Button startIcon={<Download />} onClick={() => downloadAsEps(uri)}>
-                  Download EPS
-                </Button>
-              )}
-            </Flex>
-          )}
-        </Flex>
-      </div>
+        
+        {features?.link && (
+          <Link 
+            href={uri} 
+            target="_blank" 
+            rel="noopener noreferrer"
+            startIcon={<ExternalLink />}
+            style={{ 
+              wordBreak: 'break-all',
+              textDecoration: 'none',
+            }}
+          >
+            Open QR Code link
+          </Link>
+        )}
+        {features && (features.svg || features.png || features.eps) && (
+          <>
+            {features?.svg && (
+              <Button startIcon={<Download />} onClick={downloadAsSvg}>
+                Download SVG
+              </Button>
+            )}
+            {features?.png && (
+              <Button startIcon={<Download />} onClick={downloadAsPng}>
+                Download PNG
+              </Button>
+            )}
+            {features?.eps && (
+              <Button startIcon={<Download />} onClick={() => downloadAsEps(uri)}>
+                Download EPS
+              </Button>
+            )}
+          </>
+        )}
+      </Flex>
     ),
   }
 }

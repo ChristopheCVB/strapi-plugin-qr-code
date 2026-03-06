@@ -15,7 +15,7 @@ importers:
         specifier: ^2.2.0
         version: 2.2.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.3.11(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
       '@strapi/strapi':
-        specifier: ^5.37.1
+        specifier: ^5.38.0
         version: 5.38.0(@babel/runtime@7.27.6)(@codemirror/autocomplete@6.18.6)(@codemirror/language@6.11.1)(@codemirror/lint@6.8.5)(@codemirror/search@6.5.11)(@codemirror/state@6.5.2)(@codemirror/theme-one-dark@6.1.2)(@codemirror/view@6.37.1)(@emotion/is-prop-valid@1.4.0)(@swc/helpers@0.5.17)(@types/hoist-non-react-statics@3.3.6)(@types/node@22.19.15)(@types/react-dom@18.3.7(@types/react@18.3.28))(@types/react@18.3.28)(codemirror@5.65.19)(esbuild@0.25.5)(koa@2.16.3)(react-dom@18.3.1(react@18.3.1))(react-router-dom@6.30.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)(redux@4.2.1)(styled-components@6.3.11(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(terser@5.42.0)(type-fest@4.41.0)
       qrcode:
         specifier: ^1.5.4
@@ -34,13 +34,13 @@ importers:
         specifier: ^10.0.1
         version: 10.0.1(eslint@10.0.2)
       '@strapi/content-manager':
-        specifier: ^5.37.1
+        specifier: ^5.38.0
         version: 5.38.0(7eb68170e3d1fea3e1636f4430af42d8)
       '@strapi/sdk-plugin':
         specifier: ^5.4.0
         version: 5.4.0(@swc/helpers@0.5.17)(@types/node@22.19.15)(terser@5.42.0)
       '@strapi/typescript-utils':
-        specifier: ^5.37.1
+        specifier: ^5.38.0
         version: 5.38.0
       '@stylistic/eslint-plugin':
         specifier: ^5.10.0

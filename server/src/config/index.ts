@@ -3,7 +3,7 @@ import { z } from 'zod'
 
 const schemaDocument = z.object/*<Modules.Documents.Document<UID.ContentType>>*/({
   documentId: z.string().min(1),
-  id: z.number().min(1),
+  id: z.union([z.number().min(1), z.string().min(1)]),
 })
 
 const configSchema = z.object({
