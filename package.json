@@ -78,7 +78,7 @@
     "qrcode": "^1.5.4",
     "qrcode.react": "^4.2.0",
     "react-intl": "^7.1.14",
-    "zod": "^3.25.76"
+    "zod": "^4.3.6"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
