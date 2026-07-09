@@ -13,10 +13,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout 🛎️
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
 
       - name: Setup pnpm 📦️
-        uses: pnpm/action-setup@v4
+        uses: pnpm/action-setup@v6
 
       - name: Use Node ✨
         uses: actions/setup-node@v6
@@ -25,4 +25,4 @@ jobs:
           registry-url: https://registry.npmjs.org
           cache: pnpm
 
-      - uses: ./.github/actions/test 
+      - uses: ./.github/actions/test
