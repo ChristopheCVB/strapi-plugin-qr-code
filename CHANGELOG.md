@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.0.1](https://github.com/ChristopheCVB/strapi-plugin-qr-code/compare/v1.0.0...v1.0.1) (2026-10-20)
+
+
+### Bug Fixes
+
+* **ci:** use mise and run checks in parallel ([#241](https://github.com/ChristopheCVB/strapi-plugin-qr-code/issues/241)) ([527fd01](https://github.com/ChristopheCVB/strapi-plugin-qr-code/commit/527fd01dea57b7ee9917408b4241ab8c94ce5a08))
+* Update dependabot prefixes ([e178e23](https://github.com/ChristopheCVB/strapi-plugin-qr-code/commit/e178e23ffc43c4108547337d85baf94272bfff8e))
+
 ## [1.0.0](https://github.com/ChristopheCVB/strapi-plugin-qr-code/compare/v0.4.3...v1.0.0) (2026-07-09)
 
 
